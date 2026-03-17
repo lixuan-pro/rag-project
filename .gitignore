@@ -4,3 +4,5 @@ __pycache__/
 .idea/
 .env
 logs/
+export_project_context.py
+_project_export/
