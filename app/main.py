@@ -11,7 +11,8 @@ logger=get_logger(__name__)
 
 
 #创建应用,把写死的值变成可配置值
-#创建了一个叫app的fastapi应用对象,但是他不会自动监听8000窗口，也不会自动变成一个可以访问的网站
+#创建了一个叫app的fastapi应用对象,
+# 但是他不会自动监听8000窗口，也不会自动变成一个可以访问的网站
 app=FastAPI(title=settings.app_name,version=settings.app_version)
 
 #定义GET接口
